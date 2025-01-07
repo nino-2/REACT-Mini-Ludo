@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+.decision {
+  color: white;
+}
+
+.board {
+  max-width: 100%;
+  padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* height: 100%; */
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  padding: 50px;
+  border: 20px solid blue;
+}
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 20px solid red;
+  padding: 50px;
+}
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 20px solid green;
+  padding: 50px;
+}
+.yellow {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 20px solid yellow;
+  padding: 50px;
+}
+.square {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.square2 {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+.overall {
+  display: grid;
+  grid-template-rows: 10px 10px;
+  grid-template-columns: 10px 10px;
+  column-gap: 20px;
+  height: 100vh;
+  row-gap: 20px;
+  place-items: center;
+  justify-content: center;
+}
+.overall2 {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+.overall28 {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  justify-content: center;
+}
+.white3 {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+}
+.whitee {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+}
+.boxcolors {
+  background-color: blue;
+  width: 10px;
+  height: 10px;
+}
+.whitehead {
+  background-color: gold;
+  width: 8px;
+  height: 8px;
+}
+.boxcolor {
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+}
+.boxcolor1 {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+}
+.crop {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
+}
+.blue1,
+.blue2,
+.blue3,
+.blue4 {
+  background-color: blue;
+
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.green1,
+.green2,
+.green3,
+.green4 {
+  background-color: green;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+}
+.red1,
+.red2,
+.red3,
+.red4 {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.yellow1,
+.yellow2,
+.yellow3,
+.yellow4 {
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.result {
+  font-size: 20px;
+  color: white;
+}
+.cont {
+  padding: 8px;
+}
+.reset {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.analog {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Arial;
+  text-align: center;
+}
+.digital {
+  padding: 12px 12px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.dices {
+  height: 23px;
+}
+.round {
+  background-color: peachpuff;
+  width: 45px;
+  height: 45px;
+  border: 5px solid black;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.box2 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pring {
+  display: flex;
+  justify-content: center;
+}
+.jfx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
