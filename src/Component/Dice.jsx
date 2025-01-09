@@ -5,8 +5,11 @@ const Dice = () => {
 
     const [diceRoll, setdiceRoll] = useState()
     const [diceRoll1, setdiceRoll1] = useState()
+
+    const rollSound = new Audio('sounds/dsound.mp3')
   
     const playGame = () => {
+      rollSound.play()
       const rolltheDice = () => {
         const diceArray = [1,2,3,4,5,6];
         let i = Math.floor(Math.random()*diceArray.length)
