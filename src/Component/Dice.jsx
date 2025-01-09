@@ -6,7 +6,7 @@ const Dice = () => {
     const [diceRoll, setdiceRoll] = useState()
     const [diceRoll1, setdiceRoll1] = useState()
 
-    const rollSound = new Audio('sounds/dsound.mp3')
+    const rollSound = new Audio('sounds/soundice.mp3')
   
     const playGame = () => {
       rollSound.play()
